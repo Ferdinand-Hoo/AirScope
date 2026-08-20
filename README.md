@@ -1,5 +1,7 @@
 # AirScope
 
+**English** | [简体中文](README.zh-CN.md)
+
 AirScope turns a Waveshare ESP32-S3-Touch-LCD-1.69 into a standalone,
 configurable 2.4 GHz Wi-Fi experimental access point. It combines an ESP-IDF
 firmware, an on-device LVGL status interface, and an embedded Preact management
