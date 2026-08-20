@@ -1,0 +1,22 @@
+{
+  "name": "airscope-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build && node scripts/embed.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "lucide-preact": "0.468.0",
+    "preact": "10.25.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "@preact/preset-vite": "2.9.3",
+    "typescript": "5.7.2",
+    "vite": "6.0.5"
+  }
+}

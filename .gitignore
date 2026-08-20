@@ -1,0 +1,39 @@
+# ESP-IDF build and local configuration
+build/
+managed_components/
+sdkconfig
+sdkconfig.old
+compile_commands.json
+
+# Web dependencies and generated output
+web/node_modules/
+web/dist/
+web/coverage/
+web/test-results/
+web/playwright-report/
+
+# Local caches
+.cache/
+.eslintcache
+
+# Editor and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Logs and temporary files
+*.log
+*.tmp
